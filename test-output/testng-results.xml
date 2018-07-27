@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23545" started-at="2018-07-24T05:19:13Z" finished-at="2018-07-24T05:19:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23545" started-at="2018-07-24T05:19:13Z" finished-at="2018-07-24T05:19:37Z">
+      <class name="com.TestCases.TC_05_Link_Validations">
+        <test-method status="PASS" signature="Links_check()[pri:0, instance:com.TestCases.TC_05_Link_Validations@5e5792a0]" name="Links_check" duration-ms="22652" started-at="2018-07-24T10:49:14Z" finished-at="2018-07-24T10:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Links_check -->
+      </class> <!-- com.TestCases.TC_05_Link_Validations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
