@@ -1,6 +1,7 @@
 package com.GenericFunctions;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Callable;
@@ -15,6 +16,7 @@ import org.testng.ITestListener;
 import org.testng.ITestMethodFinder;
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
+import org.testng.TestNG;
 import org.testng.internal.ConstructorOrMethod;
 import org.testng.xml.XmlTest;
 
@@ -99,7 +101,17 @@ public void onStart(ITestContext context) {
 
 @Override
 public void onFinish(ITestContext context) {
+	for(int i=0;i<=2;i++)
+	{
 	// TODO Auto-generated method stub
+	TestNG run = new TestNG();
+
+	List<String> xmlFile = new ArrayList<String>();
+	xmlFile.add("test-output\testng-failed.xml");
+	run.setTestSuites(xmlFile);
+	run.run();
+	}
+
 	
 }
 
